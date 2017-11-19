@@ -35,5 +35,11 @@
         "psr-4": {
             "PHPCuong\\CustomerProfilePicture\\": ""
         }
+    },
+    "repositories": {
+   	 "magento": {
+      		"type": "composer",
+      		"url": "https://repo.magento.com/"
+   	 }
     }
 }
