@@ -8,7 +8,7 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Ui\Component\Listing\Columns;
+namespace Euknyaz\CustomerProfilePicture\Ui\Component\Listing\Columns;
 
 use Magento\Framework\View\Element\UiComponentFactory;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
@@ -54,7 +54,7 @@ class Avatar extends \Magento\Ui\Component\Listing\Columns\Column
             foreach ($dataSource['data']['items'] as & $item) {
                 $customer = new \Magento\Framework\DataObject($item);
                 $picture_url = !empty($customer["profile_picture"]) ? $this->urlBuilder->getUrl(
-                    'customer/index/viewfile/image/'.base64_encode($customer["profile_picture"])) : $this->viewFileUrl->getUrl('PHPCuong_CustomerProfilePicture::images/no-profile-photo.jpg');
+                    'customer/index/viewfile/image/'.base64_encode($customer["profile_picture"])) : $this->viewFileUrl->getUrl('Euknyaz_CustomerProfilePicture::images/no-profile-photo.jpg');
                 $item[$fieldName . '_src'] = $picture_url;
                 $item[$fieldName . '_orig_src'] = $picture_url;
                 $item[$fieldName . '_alt'] = 'The profile picture';

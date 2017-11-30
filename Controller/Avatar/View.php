@@ -8,7 +8,7 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Controller\Avatar;
+namespace Euknyaz\CustomerProfilePicture\Controller\Avatar;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Customer\Api\CustomerMetadataInterface;

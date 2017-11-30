@@ -8,14 +8,14 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Plugin\Metadata\Form;
+namespace Euknyaz\CustomerProfilePicture\Plugin\Metadata\Form;
 
 class Image
 {
     protected $validImage;
 
     public function __construct(
-        \PHPCuong\CustomerProfilePicture\Model\Source\Validation\Image $validImage
+        \Euknyaz\CustomerProfilePicture\Model\Source\Validation\Image $validImage
     ) {
         $this->validImage = $validImage;
     }

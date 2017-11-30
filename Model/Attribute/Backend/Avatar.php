@@ -8,9 +8,9 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Model\Attribute\Backend;
+namespace Euknyaz\CustomerProfilePicture\Model\Attribute\Backend;
 
-use \PHPCuong\CustomerProfilePicture\Model\Source\Validation\Image;
+use \Euknyaz\CustomerProfilePicture\Model\Source\Validation\Image;
 
 class Avatar extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend
 {

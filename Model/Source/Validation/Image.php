@@ -8,7 +8,7 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Model\Source\Validation;
+namespace Euknyaz\CustomerProfilePicture\Model\Source\Validation;
 
 class Image
 {

@@ -8,7 +8,7 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Setup;
+namespace Euknyaz\CustomerProfilePicture\Setup;
 
 use Magento\Framework\Setup\UninstallInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;

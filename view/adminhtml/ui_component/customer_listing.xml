@@ -7,7 +7,7 @@
 -->
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
     <columns name="customer_columns" class="Magento\Customer\Ui\Component\Listing\Columns">
-        <column name="profile_picture" class="PHPCuong\CustomerProfilePicture\Ui\Component\Listing\Columns\Avatar">
+        <column name="profile_picture" class="Euknyaz\CustomerProfilePicture\Ui\Component\Listing\Columns\Avatar">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="component" xsi:type="string">Magento_Ui/js/grid/columns/thumbnail</item>

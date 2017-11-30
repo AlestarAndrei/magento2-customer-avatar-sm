@@ -10,6 +10,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'PHPCuong_CustomerProfilePicture',
+    'Euknyaz_CustomerProfilePicture',
     __DIR__
 );

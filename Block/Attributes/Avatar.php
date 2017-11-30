@@ -8,7 +8,7 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Block\Attributes;
+namespace Euknyaz\CustomerProfilePicture\Block\Attributes;
 
 use Magento\Framework\View\Element\Template\Context;
 use Magento\Framework\App\Filesystem\DirectoryList;
@@ -79,7 +79,7 @@ class Avatar extends \Magento\Framework\View\Element\Template
         if ($this->checkImageFile(base64_encode($file)) === true) {
             return $this->getUrl('viewfile/avatar/view/', ['image' => base64_encode($file)]);
         }
-        return $this->viewFileUrl->getUrl('PHPCuong_CustomerProfilePicture::images/no-profile-photo.jpg');
+        return $this->viewFileUrl->getUrl('Euknyaz_CustomerProfilePicture::images/no-profile-photo.jpg');
     }
 
     /**
@@ -96,6 +96,6 @@ class Avatar extends \Magento\Framework\View\Element\Template
                 }
             }
         }
-        return $this->viewFileUrl->getUrl('PHPCuong_CustomerProfilePicture::images/no-profile-photo.jpg');
+        return $this->viewFileUrl->getUrl('Euknyaz_CustomerProfilePicture::images/no-profile-photo.jpg');
     }
 }

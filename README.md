@@ -1,10 +1,6 @@
 # Magento 2 Customer Avatar
 This is an awesome module, it allows the customers the opportunity to personalize their account by uploading an avatar.
 
-Please donate if you enjoy my extension.
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CR756BABGNDC4)
-
 ## See the video How I can make this extension here
 https://www.youtube.com/watch?v=Ba8jxfQLK4A
 
@@ -39,30 +35,24 @@ Log into your customer account, go to Edit Account Information
 
 ##### The avatar in the header
 
-![ScreenShot](https://raw.githubusercontent.com/php-cuong/magento2-customer-avatar/master/Snapshot/header-avatar.png)
+![ScreenShot](https://raw.githubusercontent.com/euknyaz/magento2-customer-avatar-sm/master/Snapshot/header-avatar.png)
 
 ##### The avatar in the edit account information
 
-![ScreenShot](https://raw.githubusercontent.com/php-cuong/magento2-customer-avatar/master/Snapshot/upload-new-avatar.png)
+![ScreenShot](https://raw.githubusercontent.com/euknyaz/magento2-customer-avatar-sm/master/Snapshot/upload-new-avatar.png)
 
 ##### The avatar in the reviews list
 
-![ScreenShot](https://raw.githubusercontent.com/php-cuong/magento2-customer-avatar/master/Snapshot/customer-review.png)
+![ScreenShot](https://raw.githubusercontent.com/euknyaz/magento2-customer-avatar-sm/master/Snapshot/customer-review.png)
 
 #### Backend
 Log into your Magento admin, go to Customers -> All Customers
 
 ##### The avatar in the customer's grid of Magento Admin
 
-![ScreenShot](https://raw.githubusercontent.com/php-cuong/magento2-customer-avatar/master/Snapshot/avatar-in-customer-grid.png)
+![ScreenShot](https://raw.githubusercontent.com/euknyaz/magento2-customer-avatar-sm/master/Snapshot/avatar-in-customer-grid.png)
 
 ##### Upload a new avatar or delete an avatar of the customer
 
-![ScreenShot](https://raw.githubusercontent.com/php-cuong/magento2-customer-avatar/master/Snapshot/upload-delete-an-avatar.png)
-
-## Donations
-Please donate if you enjoy my extension.
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CR756BABGNDC4)
-
+![ScreenShot](https://raw.githubusercontent.com/euknyaz/magento2-customer-avatar-sm/master/Snapshot/upload-delete-an-avatar.png)
 

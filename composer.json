@@ -26,6 +26,11 @@
             "name": "Cuong NQ",
             "email": "bestearnmoney87@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Eugene Knyazkov",
+            "email": "euknyaz@gmail.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -33,7 +38,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "PHPCuong\\CustomerProfilePicture\\": ""
+            "Euknyaz\\CustomerProfilePicture\\": ""
         }
     },
     "repositories": {

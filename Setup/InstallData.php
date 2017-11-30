@@ -8,7 +8,7 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Setup;
+namespace Euknyaz\CustomerProfilePicture\Setup;
 
 use Magento\Customer\Setup\CustomerSetupFactory;
 use Magento\Customer\Model\Customer;
@@ -67,7 +67,7 @@ class InstallData implements InstallDataInterface
             'type' => 'varchar',
             'label' => 'Profile Picture',
             'input' => 'image',
-            'backend' => 'PHPCuong\CustomerProfilePicture\Model\Attribute\Backend\Avatar',
+            'backend' => 'Euknyaz\CustomerProfilePicture\Model\Attribute\Backend\Avatar',
             'required' => false,
             'visible' => true,
             'user_defined' => true,

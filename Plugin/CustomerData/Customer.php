@@ -8,12 +8,12 @@
  * @website: http://giaphugroup.com
  */
 
-namespace PHPCuong\CustomerProfilePicture\Plugin\CustomerData;
+namespace Euknyaz\CustomerProfilePicture\Plugin\CustomerData;
 
 
 use Magento\Customer\Helper\Session\CurrentCustomer;
 use Magento\Customer\Helper\View;
-use PHPCuong\CustomerProfilePicture\Block\Attributes\Avatar;
+use Euknyaz\CustomerProfilePicture\Block\Attributes\Avatar;
 
 class Customer
 {
