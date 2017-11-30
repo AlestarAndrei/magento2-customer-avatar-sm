@@ -24,6 +24,7 @@ composer require php-cuong/magento2-customer-avatar:dev-master
 ```
 
 ### 2- Enable the Customer Avatar extension
+ * php bin/magento module:enable Euknyaz_CustomerProfilePicture
  * php bin/magento setup:upgrade
  * php bin/magento setup:static-content:deploy
  * php bin/magento indexer:reindex
